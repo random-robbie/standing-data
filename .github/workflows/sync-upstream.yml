@@ -1,0 +1,70 @@
+name: Sync Fork with Upstream
+
+on:
+  schedule:
+    # Run every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Configure Git
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+    
+    - name: Add upstream remote
+      run: |
+        git remote add upstream https://github.com/vradarserver/standing-data.git
+        git remote -v
+    
+    - name: Fetch upstream changes
+      run: |
+        git fetch upstream
+        git fetch origin
+    
+    - name: Check for changes
+      id: check
+      run: |
+        # Compare main branch with upstream
+        BEHIND=$(git rev-list --count HEAD..upstream/main)
+        echo "commits_behind=$BEHIND" >> $GITHUB_OUTPUT
+        
+        if [ "$BEHIND" -gt 0 ]; then
+          echo "Fork is $BEHIND commits behind upstream"
+          echo "needs_sync=true" >> $GITHUB_OUTPUT
+        else
+          echo "Fork is up to date with upstream"
+          echo "needs_sync=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Merge upstream changes
+      if: steps.check.outputs.needs_sync == 'true'
+      run: |
+        # Checkout main branch
+        git checkout main
+        
+        # Merge upstream/main into our main
+        git merge upstream/main --no-edit --allow-unrelated-histories
+        
+        # Push the changes
+        git push origin main
+    
+    - name: Create summary
+      run: |
+        if [ "${{ steps.check.outputs.needs_sync }}" == "true" ]; then
+          echo "✅ Successfully synced ${{ steps.check.outputs.commits_behind }} commits from upstream" >> $GITHUB_STEP_SUMMARY
+          echo "🔄 Your fork has been updated with the latest changes from vradarserver/standing-data" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "✅ Fork is already up to date with upstream" >> $GITHUB_STEP_SUMMARY
+          echo "📋 No changes were needed" >> $GITHUB_STEP_SUMMARY
+        fi
