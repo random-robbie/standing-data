@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+README.md
+CLAUDE.md
+*.md
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache
+venv/
+env/
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Large data files that shouldn't be in the image
+# (we mount them as volumes instead)
+aircraft/
+airlines/
+airports/
+routes/
+countries/
+code-blocks/
+model-type/
+registration-prefixes/
