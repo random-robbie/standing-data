@@ -6,22 +6,22 @@ Please note that credit files are updated less frequently than the data files.
 
 | Name                           | Contributions |
 | :--                            | --: |
-| `dirkhh`                       | 390,211 |
+| `dirkhh`                       | 394,053 |
 | `PietD`                        | 174,954 |
-| `vand`                         | 81,279 |
-| `科罗娜`                          | 40,784 |
+| `vand`                         | 81,766 |
+| `科罗娜`                          | 41,034 |
 | `Pascal Ensinck`               | 26,317 |
 | `EDDG`                         | 24,175 |
-| `sib64`                        | 21,369 |
+| `sib64`                        | 21,385 |
 | `Slavi`                        | 21,166 |
-| `Lanorge`                      | 20,484 |
+| `Lanorge`                      | 20,533 |
 | `Phillip Rohmberger`           | 16,559 |
 | `Jon Fear`                     | 13,572 |
 | `bigrossco`                    | 10,853 |
 | `SteveF`                       | 9,822 |
 | `Neboknede`                    | 9,385 |
-| `aircraftenthusiast2000`       | 8,920 |
-| `Markus`                       | 8,897 |
+| `aircraftenthusiast2000`       | 8,948 |
+| `Markus`                       | 8,898 |
 | `huebi77`                      | 7,401 |
 | `Bernie`                       | 7,005 |
 | `McBridden`                    | 6,135 |
@@ -35,7 +35,7 @@ Please note that credit files are updated less frequently than the data files.
 | `Jordy`                        | 3,257 |
 | `Thomas S.`                    | 3,040 |
 | `Bokworks`                     | 2,870 |
-| `Gavin-D`                      | 2,746 |
+| `Gavin-D`                      | 2,751 |
 | `Robert G. Schaffrath`         | 2,688 |
 | `ChristianS`                   | 2,655 |
 | `chipcunk`                     | 2,406 |
@@ -63,7 +63,7 @@ Please note that credit files are updated less frequently than the data files.
 | `Jason`                        | 1,374 |
 | `Dauren`                       | 1,357 |
 | `paradiselost`                 | 1,352 |
-| `Daniel.cornejo.campos`        | 1,321 |
+| `Daniel.cornejo.campos`        | 1,327 |
 | `Andrew`                       | 1,220 |
 | `Mark Taylor`                  | 1,209 |
 | `laurent`                      | 1,136 |
@@ -74,7 +74,7 @@ Please note that credit files are updated less frequently than the data files.
 | `sergpan2008`                  | 1,098 |
 | `TEMU1086`                     | 998 |
 | `Igor Chekhonin`               | 979 |
-| `gabo03`                       | 945 |
+| `gabo03`                       | 961 |
 | `Jan Neuvians`                 | 922 |
 | `Mickael H.`                   | 918 |
 | `ahe880`                       | 912 |
@@ -109,10 +109,10 @@ Please note that credit files are updated less frequently than the data files.
 | `EDDB Berlin`                  | 490 |
 | `vjekic2`                      | 487 |
 | `shisha34`                     | 472 |
+| `britiger`                     | 470 |
 | `gandym`                       | 459 |
 | `DennyCrane`                   | 457 |
 | `32043GCS`                     | 448 |
-| `britiger`                     | 448 |
 | `Cristian Amaya`               | 445 |
 | `squawk7000`                   | 431 |
 | `ka0lnr`                       | 418 |
@@ -141,7 +141,7 @@ Please note that credit files are updated less frequently than the data files.
 | `Fonok`                        | 275 |
 | `flygfantast`                  | 269 |
 | `Adriel208`                    | 262 |
-| `flying_sha`                   | 261 |
+| `flying_sha`                   | 262 |
 | `ntangle`                      | 258 |
 | `Skibox`                       | 256 |
 | `clipsnotebook`                | 249 |
@@ -149,7 +149,7 @@ Please note that credit files are updated less frequently than the data files.
 | `KNakada`                      | 247 |
 | `Jim Anderson`                 | 243 |
 | `Kooter`                       | 232 |
-| `danielaregay`                 | 227 |
+| `danielaregay`                 | 231 |
 | `giofloripa`                   | 227 |
 | `spudjr`                       | 225 |
 | `Ljubo`                        | 223 |
@@ -908,6 +908,7 @@ Please note that credit files are updated less frequently than the data files.
 | `basher52`                     | 1 |
 | `BenG`                         | 1 |
 | `Bensay`                       | 1 |
+| `bfahle`                       | 1 |
 | `bgalex`                       | 1 |
 | `BGM`                          | 1 |
 | `boadracu`                     | 1 |
