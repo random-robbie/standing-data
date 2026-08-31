@@ -6,22 +6,22 @@ Please note that credit files are updated less frequently than the data files.
 
 | Name                           | Contributions |
 | :--                            | --: |
-| `dirkhh`                       | 394,053 |
+| `dirkhh`                       | 396,855 |
 | `PietD`                        | 174,954 |
-| `vand`                         | 81,766 |
-| `科罗娜`                          | 41,034 |
+| `vand`                         | 82,332 |
+| `科罗娜`                          | 41,061 |
 | `Pascal Ensinck`               | 26,317 |
 | `EDDG`                         | 24,175 |
-| `sib64`                        | 21,385 |
+| `sib64`                        | 21,390 |
 | `Slavi`                        | 21,166 |
-| `Lanorge`                      | 20,533 |
+| `Lanorge`                      | 20,578 |
 | `Phillip Rohmberger`           | 16,559 |
 | `Jon Fear`                     | 13,572 |
 | `bigrossco`                    | 10,853 |
 | `SteveF`                       | 9,822 |
 | `Neboknede`                    | 9,385 |
-| `aircraftenthusiast2000`       | 8,948 |
-| `Markus`                       | 8,898 |
+| `aircraftenthusiast2000`       | 8,967 |
+| `Markus`                       | 8,901 |
 | `huebi77`                      | 7,401 |
 | `Bernie`                       | 7,005 |
 | `McBridden`                    | 6,135 |
@@ -74,7 +74,7 @@ Please note that credit files are updated less frequently than the data files.
 | `sergpan2008`                  | 1,098 |
 | `TEMU1086`                     | 998 |
 | `Igor Chekhonin`               | 979 |
-| `gabo03`                       | 961 |
+| `gabo03`                       | 966 |
 | `Jan Neuvians`                 | 922 |
 | `Mickael H.`                   | 918 |
 | `ahe880`                       | 912 |
@@ -140,8 +140,8 @@ Please note that credit files are updated less frequently than the data files.
 | `alecu`                        | 276 |
 | `Fonok`                        | 275 |
 | `flygfantast`                  | 269 |
+| `flying_sha`                   | 263 |
 | `Adriel208`                    | 262 |
-| `flying_sha`                   | 262 |
 | `ntangle`                      | 258 |
 | `Skibox`                       | 256 |
 | `clipsnotebook`                | 249 |
@@ -220,12 +220,12 @@ Please note that credit files are updated less frequently than the data files.
 | `esir`                         | 97 |
 | `GaryG`                        | 97 |
 | `Cedric`                       | 96 |
+| `AdriBrum`                     | 92 |
 | `Greg W`                       | 89 |
 | `ccie4526`                     | 88 |
 | `Trond Erik`                   | 88 |
 | `antonioag`                    | 87 |
 | `DOSDANE`                      | 87 |
-| `AdriBrum`                     | 86 |
 | `NE_MilAir`                    | 86 |
 | `BC`                           | 82 |
 | `Dmitry`                       | 82 |
